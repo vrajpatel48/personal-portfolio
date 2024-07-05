@@ -3,19 +3,19 @@ const skills = [
     id: 1,
     name: "HTML5",
 
-    image: "/assets/html.jpeg",
+    image: "/src/assets/html.jpeg",
   },
   {
     id: 2,
     name: "CSS3",
 
-    image: "/assets/CSS-logo.png",
+    image: "/src/assets/CSS-logo.png",
   },
   {
     id: 3,
     name: "JAVASCRIPT",
 
-    image: "src/assets/javascript.png",
+    image: "/src/assets/javascript.png",
   },
   {
     id: 4,
@@ -54,18 +54,18 @@ const Skills = () => {
 
       {/* skillis card */}
       <div className=" grid lg:grid-cols-4 text-center  md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-10">
-        {skills.map((skill) => (
+        {skills.map((skills) => (
           <div
-            key={skill.id}
+            key={skills.id}
             className="bg-bgShade p-8 rounded-lg cursor-pointer hover:-translate-y-5 transition-all duration-300"
           >
             <img
-              src={skill.image}
+              src={skills.image}
               alt=""
               className="w-40 h-44 p-3  bg-white ml-10 rounded-lg shadow-md mb-7"
             />
-            <h3 className="text-2xl font-bold ">{skill.name}</h3>
-            <p>{skill.description}</p>
+            <h3 className="text-2xl font-bold ">{skills.name}</h3>
+            <p>{skills.description}</p>
           </div>
         ))}
       </div>
