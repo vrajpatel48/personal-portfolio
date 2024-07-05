@@ -1,4 +1,10 @@
 import html from "../assets/html.jpeg";
+import css from "../assets/CSS-logo.png";
+import javascript from "../assets/javascript.png";
+import react from "../assets/react.png";
+import tailwind from "../assets/tailwind.jpeg";
+import type1 from "../assets/type.png";
+import next from "../assets/next.jpeg";
 
 const skills = [
   {
@@ -9,32 +15,32 @@ const skills = [
   {
     id: 2,
     name: "CSS3",
-    image: "./src/assets/CSS-logo.png",
+    image: css,
   },
   {
     id: 3,
     name: "JAVASCRIPT",
-    image: "/assets/javascript.png",
+    image: javascript,
   },
   {
     id: 4,
     name: "REACT JS",
-    image: "/assets/react.png",
+    image: react,
   },
   {
     id: 5,
     name: "TAILWIND CSS",
-    image: "/assets/tailwind.jpeg",
+    image: tailwind,
   },
   {
     id: 6,
     name: "TYPESCRIPT",
-    image: "/assets/type.png",
+    image: type1,
   },
   {
     id: 7,
     name: "NEXT JS",
-    image: "/assets/next.jpeg",
+    image: next,
   },
 ];
 
