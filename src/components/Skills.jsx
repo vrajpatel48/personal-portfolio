@@ -2,12 +2,12 @@ const skills = [
   {
     id: 1,
     name: "HTML5",
-    image: "/assets/html.jpeg",
+    image: "/src/assets/html.jpeg",
   },
   {
     id: 2,
     name: "CSS3",
-    image: "/assets/CSS-logo.png",
+    image: "src/assets/CSS-logo.png",
   },
   {
     id: 3,
