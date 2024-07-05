@@ -1,5 +1,5 @@
 import html from "../assets/html.jpeg";
-import css from "../assets/CSS-logo.png";
+
 import javascript from "../assets/javascript.png";
 import react from "../assets/react.png";
 import tailwind from "../assets/tailwind.jpeg";
