@@ -9,7 +9,7 @@ const skills = [
   {
     id: 2,
     name: "CSS3",
-    image: "src/assets/CSS-logo.png",
+    image: "./src/assets/CSS-logo.png",
   },
   {
     id: 3,
