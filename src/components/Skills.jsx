@@ -1,5 +1,5 @@
 import react from "react";
-import HTML from './assets/html.jpeg',
+import HTML from '../assets/html.jpeg';
 const Skills = () => {
    const skills = [
   {
