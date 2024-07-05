@@ -4,7 +4,7 @@ import javascript from "../assets/javascript.png";
 import react from "../assets/react.png";
 import tailwind from "../assets/tailwind.jpeg";
 import type1 from "../assets/type.png";
-import next from "../assets/next.jpeg";
+import next from "  ../assets/next.jpeg"";
 
 const skills = [
   {
@@ -63,7 +63,7 @@ const Skills = () => {
             <img
               src={skill.image}
               alt={skill.name}
-              className="w-40 h-44 p-3 bg-white ml-10 rounded-lg shadow-md mb-7"
+              className="w-40 h-44 p-3 bg-white ml-7 rounded-lg shadow-md mb-7"
             />
             <h3 className="text-2xl font-bold">{skill.name}</h3>
           </div>
