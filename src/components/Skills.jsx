@@ -1,12 +1,12 @@
 import react from "react";
-
+import HTML from './assets/html.jpeg',
 const Skills = () => {
    const skills = [
   {
     id: 1,
     name: "HTML5",
 
-    image: "src/assets/html.jpeg",
+    image: HTML,
   },
   {
     id: 2,
