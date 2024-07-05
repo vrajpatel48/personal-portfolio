@@ -1,6 +1,6 @@
 import react from "react";
 import HTML from '../assets/html.jpeg';
-import HTML2 from '../assets/CSS-logo.png';
+// import HTML2 from '../assets/CSS-logo.png';
 import HTML3 from '../assets/javascript.png';
 
 import HTML4 from '../assets/react.png';
