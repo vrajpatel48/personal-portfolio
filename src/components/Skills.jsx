@@ -2,7 +2,7 @@ const skills = [
   {
     id: 1,
     name: "HTML5",
-    image: "/src/assets/html.jpeg",
+    image: "/assets/html.jpeg",
   },
   {
     id: 2,
