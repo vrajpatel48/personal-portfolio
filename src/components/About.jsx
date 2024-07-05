@@ -1,28 +1,45 @@
 import proPic from "../assets/profile.png";
+import {
+  FaFacebookF,
+  FaGit,
+  FaGithub,
+  FaInstagram,
+  FaLinkedin,
+  FaTwitter,
+} from "react-icons/fa";
 const About = () => {
   return (
-    <div className="lg:mx-12 mx-4" id="about">
-      <div className="flex flex-col sm:flex-row md:gap-24 gap-12 items-center justify-between">
-        <div className="sm:w-1/2"> 
-          <img src={proPic} alt="" className="w-full sm:w-11/12" />
-        </div>
-        <div className="sm:w-1/2">
-          <p className="text-xl text-headingcolor font-semibold mb-5">
-            My Skills
-          </p>
-          <h2 className="md:text-5xl text-4xl text-headingcolor font-bold">My Expertise</h2>
-          <p className="mt-8 md:pr-8 mb-8">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-            varius faucibus massa sollicitudin amet augue. Nibh metus a semper
-            purus mauris duis. Lorem eu neque, tristique quis duis. Nibh
-            scelerisque ac adipiscing velit non nulla in amet pellentesque. 
-            <br /> <br />
-            Sit
-            turpis pretium eget maecenas. Vestibulum dolor mattis consectetur
-            eget commodo vitae. Amet pellentesque sit pulvinar lorem mi a,
-            euismod risus r.
-          </p>
-          <button className="btn-primary">Contact Me</button>
+    <div className="lg:mx-12 mx-4 my-8" id="about">
+      <div className=" text-center">
+        <h2 className="md:text-5xl text-4xl text-headingcolor mb-20 font-bold">
+          About Me
+        </h2>
+        <p className="mt-8 md:pr-8 mb-8 md:text-xl">
+          Hello there! I'm <b>Vraj Patel</b>, a passionate frontend developer
+          with 1 years of experience crafting delightful user experiences.{" "}
+          <br></br>My interest in web development started back in 2020
+          <br /> <br />I specialize in creating fast, responsive, and intuitive
+          websites using modern web technologies like{" "}
+          <b>HTML5, CSS3 , JavaScript,Tailwindcss,React JS.</b> I pay great
+          attention to detail and aim for pixel-perfect precision in all my
+          projects.<br></br>I have a solid understanding of UX/UI principles,
+          which allows me to effectively collaborate with designers and bring
+          static designs to life. My goal is not only to deliver effective code
+          but also to ensure a seamless user experience.
+        </p>
+        <div className="flex justify-center items-center gap-14   ml-4">
+          <a href="https://www.facebook.com/profile.php?id=100051481396451&mibextid=ZbWKwL">
+            <FaFacebookF className="cursor-pointer hover:-translate-y-3 transition-all duration-300 text-3xl hover:text-primary" />
+          </a>
+          <a href="https://www.instagram.com/vraj.__.patel_/">
+            <FaInstagram className="cursor-pointer hover:-translate-y-3 transition-all duration-300 text-3xl hover:text-primary" />
+          </a>
+          <a href="https://www.linkedin.com/in/vraj-patel-6b1813247/">
+            <FaLinkedin className="cursor-pointer hover:-translate-y-3 transition-all duration-300 text-3xl hover:text-primary" />
+          </a>
+          <a href="https://github.com/vrajpatel48">
+            <FaGithub className="cursor-pointer hover:-translate-y-3 transition-all duration-300 text-3xl hover:text-primary" />
+          </a>
         </div>
       </div>
     </div>
