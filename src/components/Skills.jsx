@@ -4,7 +4,6 @@ import javascript from "../assets/javascript.png";
 import react from "../assets/react.png";
 import tailwind from "../assets/tailwind.jpeg";
 import type1 from "../assets/type.png";
-import next from "  ../assets/next.jpeg";
 
 const skills = [
   {
@@ -37,11 +36,11 @@ const skills = [
     name: "TYPESCRIPT",
     image: type1,
   },
-  {
-    id: 7,
-    name: "NEXT JS",
-    image: next,
-  },
+  // {
+  //   id: 7,
+  //   name: "NEXT JS",
+  //   image: next,
+  // },
 ];
 
 const Skills = () => {
