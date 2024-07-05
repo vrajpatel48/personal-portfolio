@@ -4,7 +4,7 @@ import javascript from "../assets/javascript.png";
 import react from "../assets/react.png";
 import tailwind from "../assets/tailwind.jpeg";
 import type1 from "../assets/type.png";
-import next from "  ../assets/next.jpeg"";
+import next from "  ../assets/next.jpeg";
 
 const skills = [
   {
