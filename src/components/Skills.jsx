@@ -1,8 +1,10 @@
+import html from "../assets/html.jpeg";
+
 const skills = [
   {
     id: 1,
     name: "HTML5",
-    image: "../assets/html.jpeg",
+    image: html,
   },
   {
     id: 2,
