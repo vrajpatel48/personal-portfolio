@@ -3,13 +3,13 @@ const skills = [
     id: 1,
     name: "HTML5",
 
-    image: "src/assets/html.jpeg",
+    image: "/assets/html.jpeg",
   },
   {
     id: 2,
     name: "CSS3",
 
-    image: "src/assets/CSS-logo.png",
+    image: "/assets/CSS-logo.png",
   },
   {
     id: 3,
