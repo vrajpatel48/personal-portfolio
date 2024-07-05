@@ -1,5 +1,18 @@
 import react from "react";
 import HTML from '../assets/html.jpeg';
+import HTML2 from '../assets/CSS-logo.png';
+import HTML3 from '../assets/javascript.png';
+
+import HTML4 from '../assets/react.png';
+
+import HTML5 from '../assets/tailwind.jpeg';
+
+import HTML6 from '../assets/type.png';
+
+import HTML7 from '../assets/next.jpeg';
+
+
+
 const Skills = () => {
    const skills = [
   {
@@ -12,37 +25,37 @@ const Skills = () => {
     id: 2,
     name: "CSS3",
 
-    image: "src/assets/CSS-logo.png",
+    image: HTML2,
   },
   {
     id: 3,
     name: "JAVASCRIPT",
 
-    image: "src/assets/javascript.png",
+    image: HTML3,
   },
   {
     id: 4,
     name: "REACT JS",
 
-    image: "/src/assets/react.png",
+    image: HTML4,
   },
   {
-    id: 4,
+    id: 5,
     name: "TAILWIND CSS",
 
-    image: "/src/assets/tailwind.jpeg",
+    image:HTML5,
   },
   {
-    id: 4,
+    id: 6,
     name: "TYPESCRIPT",
 
-    image: "/src/assets/type.png",
+    image: HTML6,
   },
   {
-    id: 4,
+    id: 7,
     name: "NEXT JS",
 
-    image: "/src/assets/next.jpeg",
+    image: HTML7,
   },
 ];
 
