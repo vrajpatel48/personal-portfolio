@@ -45,18 +45,7 @@ const Skills = () => {
 
     image:HTML5,
   },
-  {
-    id: 6,
-    name: "TYPESCRIPT",
 
-    image: HTML6,
-  },
-  {
-    id: 7,
-    name: "NEXT JS",
-
-    image: HTML7,
-  },
 ];
 
   return (
